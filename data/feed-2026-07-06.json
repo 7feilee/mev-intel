@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-06",
+  "window_days": 7,
+  "active_bots": 17276,
+  "profitable_bots": 1378,
+  "aggregate_net_usd_wk": 16363783,
+  "leaderboard": [
+    {
+      "bot": "0xe91fb2ca62873e16ddbee82f7c51644260a6c183",
+      "net_usd_wk": 1835789,
+      "txs_wk": 383,
+      "strategy": null
+    },
+    {
+      "bot": "0xd90acddac86eeeaba70f35a218929c795621607e",
+      "net_usd_wk": 1251025,
+      "txs_wk": 1196,
+      "strategy": null
+    },
+    {
+      "bot": "0xe7aa802e19c973690f1928af8fac88db0afefc6a",
+      "net_usd_wk": 1042405,
+      "txs_wk": 287,
+      "strategy": null
+    },
+    {
+      "bot": "0xe49384e6aca6a26c82eaa161a9211fa60feee3ef",
+      "net_usd_wk": 954505,
+      "txs_wk": 70,
+      "strategy": null
+    },
+    {
+      "bot": "0x7f62d903e8352a73966bb97af5a4f490765baf93",
+      "net_usd_wk": 884206,
+      "txs_wk": 112,
+      "strategy": null
+    },
+    {
+      "bot": "0xb1b2d032aa2f52347fbcfd08e5c3cc55216e8404",
+      "net_usd_wk": 679439,
+      "txs_wk": 8143,
+      "strategy": null
+    },
+    {
+      "bot": "0x3eb5ba7f608609cdc9375c8f8f93861af0b69b1b",
+      "net_usd_wk": 572494,
+      "txs_wk": 856,
+      "strategy": null
+    },
+    {
+      "bot": "0xb9332b6301e5983272c30dd5b48a4e3b1664511b",
+      "net_usd_wk": 401513,
+      "txs_wk": 2522,
+      "strategy": null
+    },
+    {
+      "bot": "0x95480d3f27658e73b2785d30beb0c847d78294c7",
+      "net_usd_wk": 387770,
+      "txs_wk": 1301,
+      "strategy": null
+    },
+    {
+      "bot": "0x6bf97afe2d2c790999cded2a8523009eb8a0823f",
+      "net_usd_wk": 333689,
+      "txs_wk": 927,
+      "strategy": null
+    },
+    {
+      "bot": "0xdf81987465681d0515058fe0a47a3bd174012730",
+      "net_usd_wk": 315620,
+      "txs_wk": 184,
+      "strategy": null
+    },
+    {
+      "bot": "0xace00000a77b2d4f503692f4c6c9e0b1d5469c42",
+      "net_usd_wk": 284145,
+      "txs_wk": 63,
+      "strategy": null
+    },
+    {
+      "bot": "0xdca8dcb31aa2d6206038fd6ffb72e8c34c086f6a",
+      "net_usd_wk": 221350,
+      "txs_wk": 24,
+      "strategy": null
+    },
+    {
+      "bot": "0xeeb65da7e686bc6a7073fa24a889667ba2636966",
+      "net_usd_wk": 215587,
+      "txs_wk": 203,
+      "strategy": null
+    },
+    {
+      "bot": "0xa7842153fde380a864726d0e91f14f6ffab7d46c",
+      "net_usd_wk": 214377,
+      "txs_wk": 76,
+      "strategy": null
+    }
+  ],
+  "new_entrants": [],
+  "strategy_mix": {},
+  "summary": "1,378 bots cleared measurable profit this week ($16,363,783 aggregate, high-confidence, pre-bribe), out of 17,276 active. The board is top-heavy: 0xe91fb2ca\u2026 leads at $1,835,789/wk (383 tx, mixed), with 15 bots above $100k/wk. No notable new entrants. Actionable: the concentration means a handful of operators define inclusion pricing; track their builder mix before competing on any pair they touch."
+}
