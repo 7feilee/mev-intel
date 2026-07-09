@@ -1,6 +1,6 @@
 # MEV Intelligence — daily Ethereum bot report
 
-[![brief](https://img.shields.io/badge/brief-2026--07--08-2ea44f)](briefs/2026-07-08.md)
+[![brief](https://img.shields.io/badge/brief-2026--07--09-2ea44f)](briefs/2026-07-09.md)
 [![bots](https://img.shields.io/badge/profitable%20bots-1,378-blue)](data/feed.json)
 [![aggregate](https://img.shields.io/badge/weekly%20net-%2416.4M-orange)](data/feed.json)
 
@@ -40,16 +40,16 @@ front-running / sandwich / backrun activity. Everything is computed from a **sel
 
 ## Live mempool watch
 
-Over the last ~40h of pending-tx monitoring (12,102 blocks, 10,877 distinct bots):
+Over the last ~64h of pending-tx monitoring (19,275 blocks, 14,720 distinct bots):
 
 | Signal | Count |
 |--|--|
-| backrun | 19,544 |
-| generalized frontrun | 6,726 |
-| displacement | 4,871 |
-| sandwich | 2,065 |
+| backrun | 35,195 |
+| generalized frontrun | 9,210 |
+| displacement | 7,337 |
+| sandwich | 3,344 |
 
-**9,094 bot-vs-bot 'MEV war' events** — the dominant pattern is bots front-running and backrunning *each other*, not just users.
+**14,141 bot-vs-bot 'MEV war' events** — the dominant pattern is bots front-running and backrunning *each other*, not just users.
 
 ---
 *Generated automatically from a self-hosted Ethereum node + MEV pipeline. Not financial advice. Methodology below.*
@@ -75,6 +75,7 @@ without traces), so treat them as upper bounds. The mempool watch polls `txpool_
 correlates pending txs with each new block.
 
 ## Archive
+- [2026-07-09](briefs/2026-07-09.md)
 - [2026-07-08](briefs/2026-07-08.md)
 - [2026-07-07](briefs/2026-07-07.md)
 - [2026-07-06](briefs/2026-07-06.md)
