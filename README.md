@@ -1,6 +1,6 @@
 # MEV Intelligence — daily Ethereum bot report
 
-[![brief](https://img.shields.io/badge/brief-2026--07--22-2ea44f)](briefs/2026-07-22.md)
+[![brief](https://img.shields.io/badge/brief-2026--07--23-2ea44f)](briefs/2026-07-23.md)
 [![bots](https://img.shields.io/badge/profitable%20bots-3,507-blue)](data/feed.json)
 [![aggregate](https://img.shields.io/badge/weekly%20net-%2429.1M-orange)](data/feed.json)
 
@@ -75,6 +75,7 @@ without traces), so treat them as upper bounds. The mempool watch polls `txpool_
 correlates pending txs with each new block.
 
 ## Archive
+- [2026-07-23](briefs/2026-07-23.md)
 - [2026-07-22](briefs/2026-07-22.md)
 - [2026-07-21](briefs/2026-07-21.md)
 - [2026-07-20](briefs/2026-07-20.md)
