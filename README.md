@@ -1,42 +1,42 @@
 # MEV Intelligence — daily Ethereum bot report
 
-[![brief](https://img.shields.io/badge/brief-2026--07--25-2ea44f)](briefs/2026-07-25.md)
-[![bots](https://img.shields.io/badge/profitable%20bots-3,507-blue)](data/feed.json)
-[![aggregate](https://img.shields.io/badge/weekly%20net-%2429.1M-orange)](data/feed.json)
+[![brief](https://img.shields.io/badge/brief-2026--07--26-2ea44f)](briefs/2026-07-26.md)
+[![bots](https://img.shields.io/badge/profitable%20bots-4,143-blue)](data/feed.json)
+[![aggregate](https://img.shields.io/badge/weekly%20net-%2433.0M-orange)](data/feed.json)
 
 **A daily, machine-generated intelligence report on Ethereum MEV bots** — who is actually
 earning, which new bots are rising, the on-chain strategy mix, and a live mempool watch of
 front-running / sandwich / backrun activity. Everything is computed from a **self-hosted
 `reth` archive node** and an open MEV-classification pipeline — no third-party APIs.
 
-> 3,507 bots cleared measurable profit this week ($29,054,449 aggregate, high-confidence, pre-bribe), out of 28,000 active. The board is top-heavy: 0xaa34d20b… leads at $1,488,516/wk (164 tx, mixed), with 15 bots above $100k/wk. No notable new entrants. Actionable: the concentration means a handful of operators define inclusion pricing; track their builder mix before competing on any pair they touch.
+> 4,143 bots cleared measurable profit this week ($32,964,849 aggregate, high-confidence, pre-bribe), out of 33,102 active. The board is top-heavy: 0x9d56e8ef… leads at $1,559,055/wk (971 tx, mixed), with 15 bots above $100k/wk. No notable new entrants. Actionable: the concentration means a handful of operators define inclusion pricing; track their builder mix before competing on any pair they touch.
 
 ---
 
-*Ethereum L1 · trailing 7 days · 28,000 active bots · 3,507 profitable · aggregate $29,054,449/wk (high-confidence, pre-bribe)*
+*Ethereum L1 · trailing 7 days · 33,102 active bots · 4,143 profitable · aggregate $32,964,849/wk (high-confidence, pre-bribe)*
 
 ## Executive summary
-3,507 bots cleared measurable profit this week ($29,054,449 aggregate, high-confidence, pre-bribe), out of 28,000 active. The board is top-heavy: 0xaa34d20b… leads at $1,488,516/wk (164 tx, mixed), with 15 bots above $100k/wk. No notable new entrants. Actionable: the concentration means a handful of operators define inclusion pricing; track their builder mix before competing on any pair they touch.
+4,143 bots cleared measurable profit this week ($32,964,849 aggregate, high-confidence, pre-bribe), out of 33,102 active. The board is top-heavy: 0x9d56e8ef… leads at $1,559,055/wk (971 tx, mixed), with 15 bots above $100k/wk. No notable new entrants. Actionable: the concentration means a handful of operators define inclusion pricing; track their builder mix before competing on any pair they touch.
 
 ## Top earners
 
 | # | Bot | Net/wk | Tx/wk | Strategy |
 |--|--|--|--|--|
-| 1 | `0xaa34d20be3f9…` | $1,488,516 | 164 | — |
-| 2 | `0x924465cf8cfc…` | $1,258,819 | 774 | — |
-| 3 | `0xf204f3acb05c…` | $1,230,273 | 1,029 | — |
-| 4 | `0xfdff0b569f14…` | $1,024,836 | 2,658 | — |
-| 5 | `0x8661f478c6cc…` | $917,575 | 63 | — |
-| 6 | `0xa7842153fde3…` | $730,529 | 170 | — |
-| 7 | `0xd90acddac86e…` | $577,841 | 492 | — |
-| 8 | `0x6bf97afe2d2c…` | $514,675 | 443 | — |
-| 9 | `0xa60ded4c899e…` | $465,991 | 1,641 | — |
-| 10 | `0x3eb5ba7f6086…` | $397,438 | 770 | — |
-| 11 | `0xb1b2d032aa2f…` | $390,684 | 3,780 | — |
-| 12 | `0xdbaa674ea606…` | $376,008 | 129 | — |
-| 13 | `0xb9332b6301e5…` | $370,087 | 1,968 | — |
-| 14 | `0x3980daa7eaad…` | $357,395 | 1,186 | — |
-| 15 | `0x95d30549f608…` | $345,724 | 72 | — |
+| 1 | `0x9d56e8efd23d…` | $1,559,055 | 971 | — |
+| 2 | `0xaa34d20be3f9…` | $1,497,799 | 161 | — |
+| 3 | `0x3980daa7eaad…` | $1,439,108 | 969 | — |
+| 4 | `0xd90acddac86e…` | $1,262,347 | 518 | — |
+| 5 | `0x6bf97afe2d2c…` | $1,029,247 | 216 | — |
+| 6 | `0xb1b2d032aa2f…` | $920,796 | 6,134 | — |
+| 7 | `0x924465cf8cfc…` | $916,168 | 970 | — |
+| 8 | `0xa6eabd41ff33…` | $886,889 | 60 | — |
+| 9 | `0x95480d3f2765…` | $801,557 | 2,652 | — |
+| 10 | `0x71f12a5b0e60…` | $726,573 | 134 | — |
+| 11 | `0x9f09502a0b68…` | $645,207 | 88 | — |
+| 12 | `0x898e5fd573a8…` | $643,034 | 65 | — |
+| 13 | `0xa60ded4c899e…` | $578,920 | 1,610 | — |
+| 14 | `0x3eb5ba7f6086…` | $575,389 | 979 | — |
+| 15 | `0xbdfa4f4492dd…` | $495,483 | 57 | — |
 
 ## Live mempool watch
 
@@ -75,6 +75,7 @@ without traces), so treat them as upper bounds. The mempool watch polls `txpool_
 correlates pending txs with each new block.
 
 ## Archive
+- [2026-07-26](briefs/2026-07-26.md)
 - [2026-07-25](briefs/2026-07-25.md)
 - [2026-07-24](briefs/2026-07-24.md)
 - [2026-07-23](briefs/2026-07-23.md)
